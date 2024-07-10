@@ -5,9 +5,9 @@ import './css/HeroSection.css'
 const HeroSection = () => {
   return (
     <div className='hero-container'>
-       <video src='/videos/video-2.mp4' autoPlay loop muted />
-        <h1>AVANTURA TE CEKA</h1>
-        <p>Šta čekaš?</p>
+       <video src='/videos/mountaineering.mp4' autoPlay loop muted />
+        <h1>Avantura Te Čeka - Osvoji Planine S Nama!</h1>
+        <p>Pridruži se i Otkrij Prirodu na Novi Način</p>
         <div className='hero-btns'>
             <Button className='btns' buttonStyle='btn--otline'
             buttonSize='btn--large' >

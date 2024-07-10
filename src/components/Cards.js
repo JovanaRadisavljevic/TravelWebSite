@@ -10,34 +10,34 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/img-9.jpg'
-              text="Upoznajte skrivene vodopade u Amazonskoj šumi"
-              label='Adventure'
+              src='/images/triglav.jpg'
+              text="Triglav - Ikonični Vrh Slovenskih Alpa"
+              label='Avantura'
               path='/services'
             />
             <CardItem
-              src='/images/img-2.jpg'
-              text='Krstarite na privatnoj jahti'
-              label='Luxury'
+              src='/images/dolomiti.jpg'
+              text='Dolomiti - Raj za Planinare i Ljubitelje Prirode'
+              label='Avantura'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/images/img-3.jpg'
-              text='Postetite delove Atlantskog okeana'
-              label='Mystery'
+              src='/images/ararat.jpg'
+              text='Ararat - Mistični Vrh Punu Legendi i Avantura'
+              label='Adrenalin'
               path='/services'
             />
             <CardItem
-              src='/images/img-4.jpg'
-              text='Upoznajte planinski fudbal na vrhu Himalaja'
+              src='/images/tatre.jpg'
+              text='Tatre - Biser Centralne Evrope za Planinare'
               label='Adventure'
               path='/products'
             />
             <CardItem
-              src='/images/img-8.jpg'
-              text='Osetite cari Sahare'
+              src='/images/maganik.png'
+              text='Maganik - Skriveni Dragulj Crnogorskih Planina'
               label='Adrenaline'
               path='/sign-up'
             />
