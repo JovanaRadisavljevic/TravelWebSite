@@ -1,0 +1,55 @@
+.pojedinacna_akcija-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+.slika-pojedinacne-akcije{
+    width: 250px;
+    height: 350px;
+    margin-right: 20px; 
+    padding: 15px;
+    border: 1px solid rgb(5, 5, 5);
+    background-color: rgba(253, 255, 255, 0.8);
+}
+.opis-akcije{
+    padding: 10px;
+}
+.opis-akcije h1 {
+    color: rgb(20, 23, 23);
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.opis-akcije  p {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    display: flex;
+    color: rgb(68, 66, 66);
+  }
+.detaljan-opis-akcije{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.detaljan-opis-akcije h2{
+    color: rgb(20, 23, 23);
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.detaljan-opis-akcije p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(68, 66, 66);
+}

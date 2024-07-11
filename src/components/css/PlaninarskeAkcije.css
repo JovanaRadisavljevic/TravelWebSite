@@ -1,0 +1,13 @@
+.katalog-akcija{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
+}
+.katalog-akcija h2{
+    text-align: center;
+}

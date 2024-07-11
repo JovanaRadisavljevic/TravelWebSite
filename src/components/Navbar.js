@@ -46,7 +46,7 @@ function Navbar() {
                 <Link to='/' className='nav-links'  onClick={closeMobileMenu}>Home</Link>
             </li>
             <li className='nav-item'>
-                <Link to='/services' className='nav-links' onClick={closeMobileMenu}>Service</Link>
+                <Link to='/planinarske_akcije' className='nav-links' onClick={closeMobileMenu}>Akcije</Link>
             </li>
             <li className='nav-item'>
                 <Link to='/products' className='nav-links' onClick={closeMobileMenu}>Products</Link>

@@ -2,25 +2,30 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import PojedinacnaAkcija from './components/PojednacnaAkcija';
+import PlaninarskeAkcije from './components/pages/PlaninarskeAkcije';
+import Login from './components/pages/Login';
 
 function App() {
-  return (
-    <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' exact Component={Home}></Route>
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
-        </Routes>
-      </Router>
-    </>
-  );
+    return (
+        <>
+            <Router>
+                <Navbar />
+                <Routes>
+                    <Route path='/' exact Component={Home} />
+                    <Route path='/planinarske_akcije' Component={PlaninarskeAkcije} />
+                    <Route path='/products' Component={Products} />
+                    <Route path='/sign-up' Component={SignUp} />
+                    <Route path='/login' Component={Login} />
+                    <Route path='/planinarska_akcija/:id' element={<PojedinacnaAkcija />} />
+                </Routes>
+            </Router>
+        </>
+    );
 }
 
 export default App;
+
 
